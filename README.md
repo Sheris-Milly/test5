@@ -109,7 +109,7 @@ pnpm -v
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/finance-advisor.git
+git clone https://github.com/Sheris-Milly/test5
 cd finance-advisor
 ```
 
