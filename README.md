@@ -109,7 +109,7 @@ pnpm -v
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/finance-advisor.git
+git clone https://github.com/Sheris-Milly/test5
 cd finance-advisor
 ```
 
@@ -134,23 +134,27 @@ pnpm dev
    Go to: [http://localhost:3000](http://localhost:3000)
 
 
-##  Project Structure
+Sure! Here's the cleaned-up and properly formatted **Project Structure** section for your `README.md`:
 
-\`\`\`
+---
+
+## Project Structure
+
+```
 finance-advisor/
-├── app/                  # Next.js App Router pages
-├── components/           # React components
-│   ├── about/            # About page components
-│   ├── advisor/          # AI advisor components
-│   ├── dashboard/        # Dashboard components
-│   ├── market/           # Market research components
-│   ├── planning/         # Financial planning components
-│   ├── portfolio/        # Portfolio analysis components
-│   └── ui/               # UI components (shadcn)
-├── lib/                  # Utility functions and API clients
-│   ├── api/              # API integration
-│   └── utils.ts          # Helper functions
-├── public/               # Static assets
+├── app/                  # Next.js App Router pages and layout
+├── components/           # Reusable React components
+│   ├── about/            # Components for the About page
+│   ├── advisor/          # Components related to the AI advisor
+│   ├── dashboard/        # Dashboard UI and widgets
+│   ├── market/           # Market research and data components
+│   ├── planning/         # Financial planning tools
+│   ├── portfolio/        # Portfolio analysis and insights
+│   └── ui/               # Shared UI components (e.g., from shadcn)
+├── lib/                  # Core libraries and helper logic
+│   ├── api/              # API clients and integrations (e.g. Yahoo Finance)
+│   └── utils.ts          # Utility functions
+├── public/               # Static files (images, icons, etc.)
 └── README.md             # Project documentation
-\`\`\`
+```
 
